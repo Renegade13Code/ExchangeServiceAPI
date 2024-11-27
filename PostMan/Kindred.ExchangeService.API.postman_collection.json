@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "06ab702a-ed2a-45b3-8236-07510b239ee3",
+		"name": "Kindred.ExchangeService.API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20509855"
+	},
+	"item": [
+		{
+			"name": "ExchangeCurrencies",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"amount\": 10,\n    \"inputCurrency\": \"AUD\",\n    \"outputCurrency\": \"USD\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5001/ExchangeService",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"ExchangeService"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -22,7 +22,7 @@ This is a simple API that provides currency exchange functionalities, converting
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/currency-exchange-api.git
+git clone https://github.com/Renegade13Code/ExchangeServiceAPI.git
 ```
 
 ### **Building and Running the API in Docker**
